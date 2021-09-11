@@ -1,0 +1,60 @@
+/* Included a font that is outside of google and stored locally on computer */
+@font-face {
+    font-family: 'Amsterdam';
+    src: url('G:/My Drive/FullStack Bootcamp/KaeFNWae/AnimeSite/fonts/AmsterdamThreeSlant-axaym.woff') format('woff');
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+}
+/* TOP 3 features section */
+#features {
+    padding-top: 5%;
+    margin: auto;
+}
+.topThree {
+    width: 100%;
+}
+.feature-box {
+    margin: auto;
+    text-align: center;
+    padding: 8%;
+}
+/* applied previously included font  */
+.topTtitle {
+    text-align: center;
+    font-family: 'Amsterdam', 'Urbanist', sans-serif;
+    color: #CC433D;
+}
+/* Psudeo class to enable a change based on click or hover */
+p:hover{
+    font-weight: bold;
+}
+/* currently watching section */
+#watchingNow {
+    background: rgb(187,39,39);
+    background: radial-gradient(circle, rgba(187,39,39,1) 0%, rgba(142,30,30,1) 100%);
+    color: #fff;
+    padding: 5% 10%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.watchingImg{
+    width: 13%;
+    margin-bottom: 20px;
+}
+.watchingTitle {
+    font-family: 'Amsterdam';
+    margin-bottom: 10px;
+    padding: 2% 3%;
+    text-align: center;
+}
+.watchingSzn{
+    margin-top: 10px;
+}
+/* footer section */
+.copyright{
+    text-align: center;
+}
